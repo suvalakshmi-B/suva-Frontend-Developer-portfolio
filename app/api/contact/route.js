@@ -2,6 +2,20 @@ import axios from 'axios';
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
+
+// --- CORS (allow your frontend origin) ---
+const ALLOW_ORIGIN = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+const corsHeaders = {
+  "Access-Control-Allow-Origin": ALLOW_ORIGIN, // put your Netlify URL in prod
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+};
+
+// Handle preflight
+export async function OPTIONS() {
+  return NextResponse.json({}, { headers: corsHeaders });
+}
+
 // Create and configure Nodemailer transporter
 const transporter = nodemailer.createTransport({
   service: 'gmail',

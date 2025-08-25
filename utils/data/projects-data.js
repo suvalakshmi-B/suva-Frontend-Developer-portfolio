@@ -1,40 +1,32 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Rohaan Construction Website',
+        description: "I collaborated with my team to develop the Rohaan Construction website, where I was responsible for creating pages, implementing UI enhancements, and adding form validations using HTML, CSS, Bootstrap, JavaScript, and PHP. As part of the project, I also integrated the website’s forms with Zoho CRM, enabling submitted data to be automatically captured and managed within the CRM system. My contribution focused on ensuring a responsive design, smooth functionality, and a user-friendly interface across all devices.",
+        tools: ['HTML5', 'CSS3', 'Bootstrap', 'Javascript', 'PHP'],
+        role: 'Frontend Developer',
         code: '',
         demo: '',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Rohaan Hotels',
+        description: 'I developed the Rohaan Hotels website from scratch, building a fully responsive and visually appealing platform using HTML5,Tailwind CSS and Javascript. I focused on creating modern and attractive UI designs aimed at enhancing user engagement and delivering a smooth browsing experience. By leveraging Tailwind’s utility-first approach, I ensured clean, scalable, and maintainable code while implementing a design that highlights the hotel’s brand identity and appeals to potential customers.',
+        tools: ['HTML5', 'Tailwind CSS', "Javascript", "PHP"],
+        role: 'Frontend Developer',
         code: '',
         demo: '',
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Rohaan Senior Care',
+        description: ' I developed the Rohaan Senior Care website with a focus on creating a simple, accessible, and user-friendly platform tailored to the needs of elderly users and their families. Using modern web technologies, I designed and implemented responsive layouts, intuitive navigation, and clean UI elements to ensure ease of use across all devices. The website was built with attention to accessibility and usability, providing a smooth experience while effectively showcasing the services offered by Rohaan Senior Care.',
+        tools: ['HTML5', 'Tailwind CSS', "Javascript", "PHP"],
         code: '',
-        role: 'Full Stack Developer',
-        demo: '',
+        role: 'Frontend Developer',
+        demo: 'None',
     },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+
 ];
 
 
